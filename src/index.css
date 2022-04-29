@@ -1,14 +1,46 @@
+* {
+    font-family: 'Epilogue', sans-serif;
+}
+
 nav {
     display: flex;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+.img-fix {
+    align-self: center;
 }
 
 .nav-list {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
 }
 
 .right {
-    display: flex;
+    float: right;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
 
+}
+
+.nav-items {
+    margin-right: 8px;
+    margin-left: 30px;
+    color: hsl(0, 0%, 41%)
+}
+
+.nav-button {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 41%);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-style: solid;
 }
