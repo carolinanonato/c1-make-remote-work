@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.right {
+    display: flex;
+
+}
