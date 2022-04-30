@@ -77,8 +77,8 @@
     border-style: solid;
     cursor: pointer;
     font-size: 18px;
-    margin-right: 30px;
-    ;
+    margin-right: 40px;
+
 
 }
 
@@ -126,7 +126,7 @@
 .hero-image {
     max-width: 80%;
     height: auto;
-    margin-top: 100px;
+    margin-top: 30px;
     display: block;
 }
 
@@ -172,4 +172,28 @@
     left: 0;
     z-index: 3;
     background-color: red;
+}
+
+.button1 {
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.button2 {
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-size: 15px;
+    cursor: pointer;
 }
