@@ -130,6 +130,10 @@
     display: block;
 }
 
+.hero-image-mobile {
+    display: none;
+}
+
 .hero-paragraph {
     font-size: 18px;
     width: 450px;
@@ -196,4 +200,59 @@
     font-size: 15px;
     font-size: 15px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+    .navbar {
+        display: none;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .hero-image-mobile {
+        display: block;
+        width: 375px;
+    }
+
+    .hero-container {
+        width: 375px;
+        height: auto;
+        margin: 0;
+        display: block;
+    }
+
+    .hero-image-section {
+        margin: 0;
+    }
+
+    .hero-title {
+        width: 375px;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .hero-paragraph {
+        width: 375px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .button1,
+    .button2 {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+
+    .clients-logo {
+        width: 375px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 10px;
+
+    }
 }

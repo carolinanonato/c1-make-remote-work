@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import heroImage from '../assets/images/image-hero-desktop.png'
+import heroImageMobile from '../assets/images/image-hero-mobile.png'
 import Clients from './Clients'
 
 function Hero() {
@@ -10,6 +11,7 @@ function Hero() {
 
         <div div className="hero-container" >
             <div className="title">
+                <img className="hero-image-mobile" src={heroImageMobile} alt="" />
                 <h1 className="hero-title">Make remote work</h1>
                 <p className="hero-paragraph">Get your team in sync, no matter your location. Streaming processes, create team rituals, and watch productivity soar.</p>
 
@@ -23,6 +25,7 @@ function Hero() {
             </div>
             <div className='hero-image-section'>
                 <img className="hero-image" src={heroImage} alt="" />
+
             </div>
 
 
