@@ -1,10 +1,7 @@
 import * as React from 'react';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import todo from '../assets/images/icon-todo.svg'
-import calendar from '../assets/images/icon-calendar.svg'
-import reminders from '../assets/images/icon-reminders.svg'
-import planning from '../assets/images/icon-planning.svg'
+
 
 export default function BasicMenu2() {
     const [anchorEl, setAnchorEl] = React.useState(null);
