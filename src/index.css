@@ -206,7 +206,56 @@
     display: none;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1160px) {
+    .hero-title {
+        font-size: 40px;
+        margin-right: 10px
+    }
+
+    .hero-container {
+        margin-left: 10px;
+    }
+
+    .hero-image-section {
+        margin-left: 10px
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .hero-image {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .nav-mobile {
+        height: 80px;
+        display: block;
+    }
+
+    .logo-mobile {
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .icon-mobile {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .title {
+        width: 100vh;
+
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
     .navbar {
         display: none;
     }
