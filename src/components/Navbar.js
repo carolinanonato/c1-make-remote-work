@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import '../index.css'
 import logo from '../assets/images/logo.svg'
 import arrowDown from '../assets/images/icon-arrow-down.svg'
+import { IoMenuOutline } from "react-icons/io5";
 
-import Features from './Features'
 import BasicMenu from './Features'
 import BasicMenu2 from './Company'
 
-function Navbar() {
+function Navbar({ setMenuIsVisible }) {
 
 
 
@@ -33,6 +33,10 @@ function Navbar() {
                 </div>
 
             </nav >
+            <section className="nav-mobile">
+                <img className='logo-mobile' src={logo} alt="" />
+                <IoMenuOutline className='icon-mobile' size={45} onClick={() => setMenuIsVisible(true)} />
+            </section>
 
 
 

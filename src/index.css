@@ -202,6 +202,10 @@
     cursor: pointer;
 }
 
+.nav-mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 375px) {
     .navbar {
         display: none;
@@ -214,6 +218,7 @@
     .hero-image-mobile {
         display: block;
         width: 375px;
+
     }
 
     .hero-container {
@@ -254,5 +259,21 @@
         margin-top: 40px;
         margin-left: 10px;
 
+    }
+
+    .nav-mobile {
+        height: 80px;
+        display: block;
+    }
+
+    .logo-mobile {
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    .icon-mobile {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
     }
 }
