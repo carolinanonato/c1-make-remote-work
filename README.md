@@ -1,6 +1,6 @@
 # Frontend Mentor - Intro section with dropdown navigation
 
-This is my first take on a [Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5) project, a fenomenal website with professional web designs that we need to build looking close as possible. This challenge tested my ability to create dropdown navigation menus, a common pattern on larger sites, and also a cool looking mobile version! This took me 3 days, roughly 10 hours to complete.  
+This is my first take on a [Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5) project, a phenomenal website with professional web designs that we need to build looking close as possible. This challenge tested my ability to create dropdown navigation menus, a common pattern on larger sites, and also a cool looking mobile version! This took me 3 days, roughly 10 hours to complete.  
 
 Here's the live demo: [c1-make-remote-work.netlify.app](http://c1-make-remote-work.netlify.app)
 
